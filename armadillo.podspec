@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "armadillo"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "matrix linalg made to work on ios"
 
   s.description  = <<-DESC
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:Headtalk/armadillo-ios.git" , :tag => "v0.0.4" }
+  s.source       = { :git => "git@github.com:Headtalk/armadillo-ios.git" , :tag => "0.0.5" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "armadillo-4.200.0/src/**/*.{hpp,cpp}" , "armadillo-4.200.0/include/**/*.{hpp,cpp}"
     
+  s.header_mappings_dir = 'armadillo-4.200.0/include/'
   #s.exclude_files = "Classes/Exclude"
 
   s.public_header_files = "./armadillo-4.200.0/include/**/*.{hpp,cpp}"

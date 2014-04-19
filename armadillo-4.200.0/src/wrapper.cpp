@@ -2,12 +2,12 @@
 #include <limits>
 #include <complex>
 
-#include "config.hpp"
+#include "armadillo_bits/config.hpp"
 #undef ARMA_USE_WRAPPER
 
-#include "compiler_setup.hpp"
-#include "typedef_elem.hpp"
-#include "include_atlas.hpp"
+#include "armadillo_bits/compiler_setup.hpp"
+#include "armadillo_bits/typedef_elem.hpp"
+#include "armadillo_bits/include_atlas.hpp"
 
 
 #if defined(ARMA_USE_CXX11_RNG)
@@ -20,7 +20,7 @@
   
   namespace arma
     {
-    #include "arma_rng_cxx11.hpp"
+    #include "armadillo_bits/arma_rng_cxx11.hpp"
     thread_local arma_rng_cxx11 arma_rng_cxx11_instance;
     }
 #endif
@@ -29,9 +29,9 @@
 namespace arma
 {
 
-#include "blas_bones.hpp"
-#include "lapack_bones.hpp"
-#include "arpack_bones.hpp"
+#include "armadillo_bits/blas_bones.hpp"
+#include "armadillo_bits/lapack_bones.hpp"
+#include "armadillo_bits/arpack_bones.hpp"
 
 // at this stage we have prototypes for the real blas, lapack and atlas functions
 
