@@ -16,10 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "armadillo"
-  s.version      = "0.0.1"
+  s.version      = "0.0.4"
   s.summary      = "matrix linalg made to work on ios"
 
   s.description  = <<-DESC
+
                    This wraps the Armadillo C++ vector lib framework for easy iOS use.
 
                    * Think: Why did you write this? What is the focus? What does it do?
@@ -27,6 +28,7 @@ Pod::Spec.new do |s|
                    * Try to keep it short, snappy and to the point.
                    * Finally, don't worry about the indent, CocoaPods strips it!
                    
+		   DESC
 
   s.homepage     = "http://arma.sourceforge.net/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
