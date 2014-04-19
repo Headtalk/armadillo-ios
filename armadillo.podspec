@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:Headtalk/armadillo-ios.git" , :tag => "0.0.1" }
+  s.source       = { :git => "git@github.com:Headtalk/armadillo-ios.git" , :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "armadillo-4.200.0/src/**/*.{hpp,cpp}" #, "armadillo-4.200.0/include/**/*.{hpp,cpp}"
+  s.source_files  = "armadillo-4.200.0/src/**/*.{hpp,cpp}" , "armadillo-4.200.0/include/**/*.{hpp,cpp}"
     
   #s.exclude_files = "Classes/Exclude"
 
