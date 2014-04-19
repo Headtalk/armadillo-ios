@@ -1808,6 +1808,7 @@
 					"../armadillo-4.200.0/include/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1821,6 +1822,7 @@
 					"../armadillo-4.200.0/include/**",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};

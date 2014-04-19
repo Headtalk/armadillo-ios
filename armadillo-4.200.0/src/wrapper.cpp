@@ -2,7 +2,7 @@
 #include <limits>
 #include <complex>
 
-#include "armadillo_bits/config.hpp"
+#include "config.hpp"
 #undef ARMA_USE_WRAPPER
 
 #include "armadillo_bits/compiler_setup.hpp"
