@@ -20,13 +20,13 @@ Pod::Spec.new do |s|
   s.summary      = "matrix linalg made to work on ios"
 
   s.description  = <<-DESC
-                   A longer description of armadillo in Markdown format.
+                   This wraps the Armadillo C++ vector lib framework for easy iOS use.
 
                    * Think: Why did you write this? What is the focus? What does it do?
                    * CocoaPods will be using this to generate tags, and improve search results.
                    * Try to keep it short, snappy and to the point.
                    * Finally, don't worry about the indent, CocoaPods strips it!
-                   DESC
+                   
 
   s.homepage     = "http://arma.sourceforge.net/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:Headtalk/armadillo-ios.git" , :tag => "0.0.2" }
+  s.source       = { :git => "git@github.com:Headtalk/armadillo-ios.git" , :tag => "v0.0.4" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
